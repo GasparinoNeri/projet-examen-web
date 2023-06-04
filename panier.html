@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier</title>
+    <style>
+        /* Styling for the cart page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .total {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .checkout-btn {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mon Panier</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produit 1</td>
+                <td>19.99€</td>
+                <td>2</td>
+                <td>39.98€</td>
+            </tr>
+            <tr>
+                <td>Produit 2</td>
+                <td>24.99€</td>
+                <td>1</td>
+                <td>24.99€</td>
+            </tr>
+            <tr>
+                <td>Produit 3</td>
+                <td>9.99€</td>
+                <td>3</td>
+                <td>29.97€</td>
+            </tr>
+            <tr class="total">
+                <td colspan="3">Total</td>
+                <td>94.94€</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="#" class="checkout-btn">Paiement</a>
+</body>
+</html>
+
